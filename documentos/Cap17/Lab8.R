@@ -25,7 +25,7 @@ View(dados_historicos_dsa)
 
 # Cria o modelo de Machine Learning com algoritmo isolationForest
 ?isolationForest 
-modelo_ml_dsa = isolationForest$new() 
+modelo_ml_dsa = isolationForest$new()
 
 # Treina o modelo
 modelo_ml_dsa$fit(dados_historicos_dsa)
